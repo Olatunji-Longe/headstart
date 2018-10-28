@@ -1,0 +1,34 @@
+target
+
+# Intellij
+.idea
+**/*.iml
+*.iml
+
+### output files
+/target/
+out
+
+### maven related
+.mvn
+/mvnw
+/mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+
+### Java template
+# Compiled class file
+*.class
+
+### Log file
+*.log
+
+### Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### virtual machine crash logs
+hs_err_pid*

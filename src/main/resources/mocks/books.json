@@ -1,0 +1,976 @@
+﻿{
+  "BooksResponse": {
+    "search": {
+      "results-end": 200,
+      "total-results": 45010,
+      "query": "Ender's%20Game",
+      "source": "BooksEndpoint",
+      "query-time-seconds": 0.22,
+      "results": {
+        "work": [
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 3
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 475
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 5
+            },
+            "best_book": {
+              "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+              "author": {
+                "name": "Tarryn Fisher",
+                "id": {
+                  "type": "integer",
+                  "content": 5410816
+                }
+              },
+              "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+              "id": {
+                "type": "integer",
+                "content": 40234522
+              },
+              "type": "Book",
+              "title": "Folsom (End of Men, #1)"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 28
+            },
+            "average_rating": 4.13,
+            "id": {
+              "type": "integer",
+              "content": 61823342
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2018
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 2717
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 2
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 672
+            },
+            "original_publication_month": {
+              "nil": true,
+              "type": "integer"
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1435761002s/9870166.jpg",
+              "author": {
+                "name": "Nikos Kazantzakis",
+                "id": {
+                  "type": "integer",
+                  "content": 5668
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1435761002m/9870166.jpg",
+              "id": {
+                "type": "integer",
+                "content": 9870166
+              },
+              "type": "Book",
+              "title": "Günaha Son Çağrı"
+            },
+            "original_publication_day": {
+              "nil": true,
+              "type": "integer"
+            },
+            "average_rating": 4.15,
+            "id": {
+              "type": "integer",
+              "content": 1193292
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 1952
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 10599
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 22
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 482
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 6
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1414348373s/23398715.jpg",
+              "author": {
+                "name": "Stephen Richard Witt",
+                "id": {
+                  "type": "integer",
+                  "content": 9013570
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1414348373m/23398715.jpg",
+              "id": {
+                "type": "integer",
+                "content": 23398715
+              },
+              "type": "Book",
+              "title": "How Music Got Free: The End of an Industry, the Turn of the Century, and the Patient Zero of Piracy"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 4
+            },
+            "average_rating": 4.22,
+            "id": {
+              "type": "integer",
+              "content": 42955279
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2015
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 3941
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 6
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 669
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 9
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1412741590s/23341259.jpg",
+              "author": {
+                "name": "Shaun David Hutchinson",
+                "id": {
+                  "type": "integer",
+                  "content": 3130410
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1412741590m/23341259.jpg",
+              "id": {
+                "type": "integer",
+                "content": 23341259
+              },
+              "type": "Book",
+              "title": "Violent Ends"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 1
+            },
+            "average_rating": 4.05,
+            "id": {
+              "type": "integer",
+              "content": 42900872
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2015
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 3502
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 16
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 586
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 7
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1328751405s/6577631.jpg",
+              "author": {
+                "name": "Chris Hedges",
+                "id": {
+                  "type": "integer",
+                  "content": 15438
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1328751405m/6577631.jpg",
+              "id": {
+                "type": "integer",
+                "content": 6577631
+              },
+              "type": "Book",
+              "title": "Empire of Illusion: The End of Literacy and the Triumph of Spectacle"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 13
+            },
+            "average_rating": 3.94,
+            "id": {
+              "type": "integer",
+              "content": 6771033
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2009
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 4249
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 176
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 134
+            },
+            "original_publication_month": {
+              "nil": true,
+              "type": "integer"
+            },
+            "best_book": {
+              "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+              "author": {
+                "name": "John Locke",
+                "id": {
+                  "type": "integer",
+                  "content": 51746
+                }
+              },
+              "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+              "id": {
+                "type": "integer",
+                "content": 10404495
+              },
+              "type": "Book",
+              "title": "Two Treatises of Government: The False Principles and Foundation of Sir Robert Filmer, and His Followers Are Detected and Overthrown. Also, an Essay Concerning the True Original, Extent, and End of Civil-Government the Fourth Edition."
+            },
+            "original_publication_day": {
+              "nil": true,
+              "type": "integer"
+            },
+            "average_rating": 3.82,
+            "id": {
+              "type": "integer",
+              "content": 3078362
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 1689
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 14976
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 42
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 694
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 1
+            },
+            "best_book": {
+              "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+              "author": {
+                "name": "Abhijit V. Banerjee",
+                "id": {
+                  "type": "integer",
+                  "content": 5302812
+                }
+              },
+              "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+              "id": {
+                "type": "integer",
+                "content": 22466007
+              },
+              "type": "Book",
+              "title": "Poor Economics: Rethinking Poverty & the Ways to End it"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 1
+            },
+            "average_rating": 4.23,
+            "id": {
+              "type": "integer",
+              "content": 15145697
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2011
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 9050
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 289
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 1009
+            },
+            "original_publication_month": {
+              "nil": true,
+              "type": "integer"
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1327540009s/9313578.jpg",
+              "author": {
+                "name": "Gustave Le Bon",
+                "id": {
+                  "type": "integer",
+                  "content": 313118
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1327540009m/9313578.jpg",
+              "id": {
+                "type": "integer",
+                "content": 9313578
+              },
+              "type": "Book",
+              "title": "Kitleler Psikolojisi"
+            },
+            "original_publication_day": {
+              "nil": true,
+              "type": "integer"
+            },
+            "average_rating": 3.88,
+            "id": {
+              "type": "integer",
+              "content": 560062
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 1895
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 6975
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 18
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 114
+            },
+            "original_publication_month": {
+              "nil": true,
+              "type": "integer"
+            },
+            "best_book": {
+              "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+              "author": {
+                "name": "Bill McKibben",
+                "id": {
+                  "type": "integer",
+                  "content": 43861
+                }
+              },
+              "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+              "id": {
+                "type": "integer",
+                "content": 199359
+              },
+              "type": "Book",
+              "title": "The End of Nature"
+            },
+            "original_publication_day": {
+              "nil": true,
+              "type": "integer"
+            },
+            "average_rating": 3.94,
+            "id": {
+              "type": "integer",
+              "content": 1308224
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 1989
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 2375
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 22
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 530
+            },
+            "original_publication_month": {
+              "nil": true,
+              "type": "integer"
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1404600938s/22667455.jpg",
+              "author": {
+                "name": "Lindsey Kelk",
+                "id": {
+                  "type": "integer",
+                  "content": 2824597
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1404600938m/22667455.jpg",
+              "id": {
+                "type": "integer",
+                "content": 22667455
+              },
+              "type": "Book",
+              "title": "Einmal Happy ohne End, bitte!"
+            },
+            "original_publication_day": {
+              "nil": true,
+              "type": "integer"
+            },
+            "average_rating": 3.94,
+            "id": {
+              "type": "integer",
+              "content": 14945405
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2011
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 11592
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 17
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 273
+            },
+            "original_publication_month": {
+              "nil": true,
+              "type": "integer"
+            },
+            "best_book": {
+              "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+              "author": {
+                "name": "Philip Plait",
+                "id": {
+                  "type": "integer",
+                  "content": 13257
+                }
+              },
+              "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+              "id": {
+                "type": "integer",
+                "content": 3864977
+              },
+              "type": "Book",
+              "title": "Death from the Skies!: These Are the Ways the World Will End..."
+            },
+            "original_publication_day": {
+              "nil": true,
+              "type": "integer"
+            },
+            "average_rating": 4.02,
+            "id": {
+              "type": "integer",
+              "content": 3910163
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2008
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 4815
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 2
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 198
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 1
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1329414342s/10867262.jpg",
+              "author": {
+                "name": "Mark Tufo",
+                "id": {
+                  "type": "integer",
+                  "content": 2990843
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1329414342m/10867262.jpg",
+              "id": {
+                "type": "integer",
+                "content": 10867262
+              },
+              "type": "Book",
+              "title": "The End (Zombie Fallout, #3)"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 1
+            },
+            "average_rating": 4.32,
+            "id": {
+              "type": "integer",
+              "content": 15782473
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2011
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 5377
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 36
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 577
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 1
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1344270227s/11156902.jpg",
+              "author": {
+                "name": "Denise Mina",
+                "id": {
+                  "type": "integer",
+                  "content": 54069
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1344270227m/11156902.jpg",
+              "id": {
+                "type": "integer",
+                "content": 11156902
+              },
+              "type": "Book",
+              "title": "The End of the Wasp Season (Alex Morrow, #2)"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 1
+            },
+            "average_rating": 3.83,
+            "id": {
+              "type": "integer",
+              "content": 14647221
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2011
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 5300
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 102
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 1571
+            },
+            "original_publication_month": {
+              "nil": true,
+              "type": "integer"
+            },
+            "best_book": {
+              "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+              "author": {
+                "name": "Sándor Márai",
+                "id": {
+                  "type": "integer",
+                  "content": 4771489
+                }
+              },
+              "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+              "id": {
+                "type": "integer",
+                "content": 6533765
+              },
+              "type": "Book",
+              "title": "The Candles Burn Till the End"
+            },
+            "original_publication_day": {
+              "nil": true,
+              "type": "integer"
+            },
+            "average_rating": 3.94,
+            "id": {
+              "type": "integer",
+              "content": 1250451
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 1942
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 13454
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 16
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 559
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 11
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1365462885s/17620963.jpg",
+              "author": {
+                "name": "Mary Lawson",
+                "id": {
+                  "type": "integer",
+                  "content": 5619
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1365462885m/17620963.jpg",
+              "id": {
+                "type": "integer",
+                "content": 17620963
+              },
+              "type": "Book",
+              "title": "Road Ends"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 12
+            },
+            "average_rating": 4.03,
+            "id": {
+              "type": "integer",
+              "content": 24587804
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2013
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 3227
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 14
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 343
+            },
+            "original_publication_month": {
+              "nil": true,
+              "type": "integer"
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1357914081s/13502958.jpg",
+              "author": {
+                "name": "Raymond E. Feist",
+                "id": {
+                  "type": "integer",
+                  "content": 8588
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1357914081m/13502958.jpg",
+              "id": {
+                "type": "integer",
+                "content": 13502958
+              },
+              "type": "Book",
+              "title": "Magician's End (The Chaoswar Saga, #3)"
+            },
+            "original_publication_day": {
+              "nil": true,
+              "type": "integer"
+            },
+            "average_rating": 4.26,
+            "id": {
+              "type": "integer",
+              "content": 19051439
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2013
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 5692
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 22
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 243
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 12
+            },
+            "best_book": {
+              "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+              "author": {
+                "name": "Lydia Davis",
+                "id": {
+                  "type": "integer",
+                  "content": 27427
+                }
+              },
+              "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+              "id": {
+                "type": "integer",
+                "content": 113861
+              },
+              "type": "Book",
+              "title": "The End of the Story"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 1
+            },
+            "average_rating": 3.69,
+            "id": {
+              "type": "integer",
+              "content": 1813485
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 1994
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 1732
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 12
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 306
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 1
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1350663745s/15731244.jpg",
+              "author": {
+                "name": "Elizabeth Graver",
+                "id": {
+                  "type": "integer",
+                  "content": 72031
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1350663745m/15731244.jpg",
+              "id": {
+                "type": "integer",
+                "content": 15731244
+              },
+              "type": "Book",
+              "title": "The End of the Point"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 1
+            },
+            "average_rating": 3.17,
+            "id": {
+              "type": "integer",
+              "content": 21411154
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2013
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 1976
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 4
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 593
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 1
+            },
+            "best_book": {
+              "small_image_url": "https://images.gr-assets.com/books/1327956625s/8857125.jpg",
+              "author": {
+                "name": "Terri Reid",
+                "id": {
+                  "type": "integer",
+                  "content": 4192570
+                }
+              },
+              "image_url": "https://images.gr-assets.com/books/1327956625m/8857125.jpg",
+              "id": {
+                "type": "integer",
+                "content": 8857125
+              },
+              "type": "Book",
+              "title": "Loose Ends (Mary O’Reilly Paranormal Mystery #1)"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 1
+            },
+            "average_rating": 4.04,
+            "id": {
+              "type": "integer",
+              "content": 13732326
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2010
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 6235
+            }
+          },
+          {
+            "books_count": {
+              "type": "integer",
+              "content": 24
+            },
+            "text_reviews_count": {
+              "type": "integer",
+              "content": 1335
+            },
+            "original_publication_month": {
+              "type": "integer",
+              "content": 5
+            },
+            "best_book": {
+              "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png",
+              "author": {
+                "name": "Nelson DeMille",
+                "id": {
+                  "type": "integer",
+                  "content": 1238
+                }
+              },
+              "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+              "id": {
+                "type": "integer",
+                "content": 24807448
+              },
+              "type": "Book",
+              "title": "A Quiet End"
+            },
+            "original_publication_day": {
+              "type": "integer",
+              "content": 26
+            },
+            "average_rating": 3.87,
+            "id": {
+              "type": "integer",
+              "content": 45955392
+            },
+            "original_publication_year": {
+              "type": "integer",
+              "content": 2015
+            },
+            "ratings_count": {
+              "type": "integer",
+              "content": 12891
+            }
+          }
+        ]
+      },
+      "results-start": 181
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.error {
+    color: #f05050;
+    font-size: 12px;
+    font-weight: 500;
+}
+.parsley-error {
+    border-color: #f05050 !important;
+}
+
+.parsley-error-list,
+.parsley-errors-list {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.parsley-error-list.filled,
+.parsley-errors-list.filled {
+    display: block;
+}
+
+.parsley-error-list > li,
+.parsley-errors-list > li {
+    font-size: 12px;
+    list-style: none;
+    color: #f6504d;
+}

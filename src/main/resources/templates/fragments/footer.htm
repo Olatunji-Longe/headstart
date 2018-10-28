@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <body>
+        <th:block th:fragment="footer">
+            <footer class="margin-top-20">
+                <div class="container">
+                    <p class="text-center">&copy; olatunji.longe@gmail.com</p>
+                </div>
+            </footer>
+
+            <!-- simple pagination  -->
+            <script type="text/javascript" th:src="@{/plugins/pagination/jquery.twbsPagination.min.js}"></script>
+
+            <!-- parsley  -->
+            <script type="text/javascript" th:src="@{/plugins/parsley/parsley.min.js}"></script>
+            <script type="text/javascript" th:src="@{/plugins/parsley/parsley.extend.js}"></script>
+
+            <!-- moment  -->
+            <script type="text/javascript" th:src="@{/js/moment.js}"></script>
+
+            <!-- numeral  -->
+            <script type="text/javascript" th:src="@{/js/numeral/numeral.min.js}"></script>
+
+            <!-- sweet alerts  -->
+            <script type="text/javascript" th:src="@{/plugins/sweetalert/sweetalert.min.js}"></script>
+
+            <!-- InsertionQ  -->
+            <script type="text/javascript" th:src="@{/js/insertionQ/insQ.min.js}"></script>
+
+            <!-- Custom jQuery/javascript  -->
+            <script type="text/javascript" th:src="@{/js/custom/global.js}"></script>
+            <script type="text/javascript" th:src="@{/js/custom/busy-animations.js}"></script>
+            <script type="text/javascript" th:src="@{/js/custom/parsley.js}"></script>
+            <script type="text/javascript" th:src="@{/js/custom/main.js}"></script>
+            <script type="text/javascript" th:src="@{/js/custom/modals.js}"></script>
+            <script type="text/javascript" th:src="@{/js/custom/pagination.js}"></script>
+            <script type="text/javascript" th:src="@{/js/custom/table-sorting.js}"></script>
+
+        </th:block>
+    </body>
+</html>

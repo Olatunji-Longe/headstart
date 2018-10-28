@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{fragments/layout}">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+        <div layout:fragment="content" th:remove="tag">
+
+            <div th:if="${alert}">
+                <div class="alert" th:classappend="${alert.flavor}" th:text="${alert.message}"></div>
+            </div>
+
+            <div class="row-fluid">
+                <form th:action="@{/books/search}" method="post" role="form" data-parsley-trigger="keyup submit" data-parsley-validate novalidate>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="query" th:value="${query}" placeholder="enter a book title or author" aria-label="title or author" aria-describedby="search-addon" autofocus required>
+                        <div class="input-group-append">
+                            <button class="btn btn-sm text-black bg-white border-grey-mid" disabled> Search Books By ... </button>
+                        </div>
+                        <div class="input-group-append">
+                            <select class="custom-select width-100pct" id="queryField" name="queryField" required>
+                                <option th:if="${queryFields != null}" th:each="field : ${queryFields}" th:value="${field}" th:text="${#strings.capitalize(field)}" th:selected="${field == queryField}"></option>
+                            </select>
+                        </div>
+                        <div class="input-group-append">
+                            <input id="search-addon" type="submit" class="form-control input-group-text btn btn-sm bg-mint text-white" value="Search"/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div id="books-table" class="row margin-top-40">
+                <table class="table table-hover" th:if="${bookPage == null || bookPage.content.isEmpty()}">
+                    <thead><tr><th>Books</th></tr></thead>
+                    <tbody><tr><td>No books to display</td></tr></tbody>
+                </table>
+                <table class="table table-hover table-sortable" th:unless="${bookPage == null || bookPage.content.isEmpty()}">
+                    <thead>
+                        <tr>
+                            <th id="bk-image" class="width-10pct">Image</th>
+                            <th id="bk-title" class="width-60pct">Title <i class="fa fa-sort margin-left-20" aria-hidden="true" title="sort by title"></i></th>
+                            <th id="bk-author" class="width-30pct">Author <i class="fa fa-sort margin-left-20" aria-hidden="true" title="sort by author"></i></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr th:each="book : ${bookPage.content}">
+                            <td class="width-80">
+                                <img th:src="${book.imageUrl}" class="img-fluid" alt="app logo"/>
+                            </td>
+                            <td th:text="${book.title}">Title</td>
+                            <td th:text="${book.author}">Author</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <ul th:if="${bookPage != null && bookPage.totalPages > 0}" class="pagination" data-th-attr="data-pages=${bookPage.totalPages}, data-href=@{/books/search/ajax(query=${query}, queryField=${queryField}, target='#books-table', targetAction='replace')}"></ul>
+        </div>
+    </body>
+</html>

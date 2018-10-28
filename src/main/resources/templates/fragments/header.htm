@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+    <body>
+        <th:block th:fragment="header">
+            <nav class="navbar navbar-expand-sm bg-dark">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand width-50" th:href="@{/books}">
+                            <img th:src="@{/images/icon.png}" class="img-fluid" alt="app logo"/>
+                        </a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a th:href="@{/books}" class="color-mint">Home</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pull-right">
+                        <span sec:authorize="isAuthenticated()" style="display: inline-block;">
+                            <span sec:authentication="name" class="color-mint"></span>
+                            <span class="color-white"> | </span>
+                            <a th:href="@{/logout}" class="color-red"> <i class="fa fa-sign-out"></i> Sign Out</a>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </th:block>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{fragments/layout}">
+    <head>
+        <title>Login</title>
+    </head>
+    <body>
+        <div layout:fragment="content" th:remove="tag">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div id="login-card" class="card">
+                        <div class="card-header bg-light-grey">
+                            <h3 class="card-title text-center">Headstart</h3>
+                        </div>
+                        <div class="card-body">
+                            <form th:action="@{/login}" method="post" role="form" data-parsley-trigger="keyup submit" data-parsley-validate novalidate>
+                                <div th:if="${param.error}">
+                                    <div class="alert alert-danger"> Invalid username or password. </div>
+                                </div>
+                                <div th:if="${param.logout}">
+                                    <div class="alert alert-info"> You have been logged out. </div>
+                                </div>
+                                <fieldset>
+                                    <div class="form-group">
+                                        <label for="username">Username / Email: </label>
+                                        <input id="username" class="form-control" placeholder="e-mail address" name="username" type="email" autofocus="" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Password: </label>
+                                        <input id="password" class="form-control" placeholder="Password" name="password" type="password" value="" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" class="form-control btn btn-sm bg-mint text-white" value="Log In"/>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="card-footer">
+                            <p><small><em class="color-mint">Proudly developed with Spring Boot + H2 + Thymeleaf + Bootstrap + jQuery + ajax</em></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
