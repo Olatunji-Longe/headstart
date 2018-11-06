@@ -1,6 +1,6 @@
 ### About
 
-A small web project to provide a headstart while building a java web app.
+A small web project to provide a headstart while building a java/Spring-based web app.
 
 The following technologies were used;
 - Java
